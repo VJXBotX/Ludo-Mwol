@@ -11,7 +11,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://www.pixelstalk.net/wp-content/uploads/2016/03/Pikachu-wallpaper-HD-dowload.jpg";
+  r_text[0] = "PicsArt_08-15-03.05.52.jpg";
     
     
     var i = Math.floor(1*Math.random())
@@ -19,11 +19,11 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*My creator is JaiN VJ*
-*Creator number : wa.me/916282809372?text=Hi%20Ameer%20Suhail.%20*
+*Creator number : Wa.me///+916282809372
 *Bot setting video : https://youtu.be/_D4ZYuUSXjs*
 *Githublink (Setup)  :    https://github.com/VJXBotX/Ludo-Mwol*
 *Audio commads :   https://github.com/VJXBotX/Ludo-Mwol/tree/master/uploads*
-*Sticker commads : https://github.com/VJXBotX/Ludo-Mwol/tree/master/uploads*
+*Sticker commads : https://github.com/VJXBotX/Ludo-Mwol/sticker*
 `}) 
 
 }));
