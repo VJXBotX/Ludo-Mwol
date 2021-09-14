@@ -11,7 +11,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "PicsArt_08-15-03.05.52.jpg";
+  r_text[0] = "https://images.app.goo.gl/FCsND9QwDga7WkDV8";
     
     
     var i = Math.floor(1*Math.random())
@@ -21,9 +21,9 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*My creator is JaiN VJ*
 *Creator number : Wa.me///+916282809372
 *Bot setting video : https://youtu.be/_D4ZYuUSXjs*
-*Githublink (Setup)  :    https://github.com/VJXBotX/Ludo-Mwol*
+*Githublink (Setup)  :    https://github.com/ameer-kallumthodi/pikachu*
 *Audio commads :   https://github.com/VJXBotX/Ludo-Mwol/tree/master/uploads*
-*Sticker commads : https://github.com/VJXBotX/Ludo-Mwol/sticker*
+*Sticker commads : https://github.com/VJXBotX/Ludo-Mwol/tree/master/sticker*
 `}) 
 
 }));
